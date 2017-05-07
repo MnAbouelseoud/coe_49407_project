@@ -1,0 +1,24 @@
+Body
+{
+    background: slategray;
+}
+Form[id='User Authentication Form']
+{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+Input[type=text], Input[type=password]
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+Input[id='Log_In'], Input[id='Registration']
+{
+    width: 100%;
+}
