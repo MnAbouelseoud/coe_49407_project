@@ -1,0 +1,36 @@
+<ion-header >
+  <ion-navbar color="primary">
+    <ion-title>
+      Sign In
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+
+  <Form ID = "User Authentication Form">
+  <ion-item>
+    <ion-label floating ID = "Username">Username</ion-label>
+    <ion-input name="user" [(ngModel)]="user"  type="text"  ></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label floating>Password</ion-label>
+    <ion-input id="passwordd" type="password" name="pass" [(ngModel)]="pass" ></ion-input>
+  </ion-item>
+
+
+  <br>
+  </Form>
+
+
+  <br>
+  <div class="btn">
+    <button ion-button  (click)="login()">Register</button>
+  </div>
+  <div class="donot">
+  </div>
+
+</ion-content>
+
+
